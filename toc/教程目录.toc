@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
   <title>Table of Contents</title>
-  <page href="../contents/First_Topic.htm" format="html" processing-role="normal"></page>
-  <page navtitle="1_1.htm" href="../contents/First_Topic.htm" format="html" processing-role="normal"></page>
+  <book navtitle="软件介绍" format="html" processing-role="normal">
+    <page href="../contents/软件介绍/1_1.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/软件介绍/1_3.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/软件介绍/1_2.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="快速入门" format="html" processing-role="normal">
+    <page href="../contents/快速入门/创建项目.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/快速入门/管理内容.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/快速入门/修改格式.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/快速入门/输出文件.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="进阶功能" format="html" processing-role="normal">
+    <page href="../contents/进阶功能/项目.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/编辑和格式.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/TOC、Index和G.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/条件性内容.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/Skins和Master_Pages.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/输出.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/发布.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/合作.htm" format="html" processing-role="normal"></page>
+  </book>
 </map>

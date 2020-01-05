@@ -118,3 +118,6 @@ ol.reltopics-list {
 a.reltopics-list-item {
 
 }
+ul.Disc {
+	list-style-type: disc;
+}

@@ -4,12 +4,12 @@
   "version": "2019.0.9",
   "variables": {
     "css": {
+      "theme-homepage-layout-text-color": "#3A4147",
       "theme-layout-font": "'Open Sans'",
       "theme-title-color": "#ffffff",
-      "theme-homepage-layout-text-color": "#3A4147",
-      "theme-layout-text-color": "#6A737C",
       "theme-color": "#0C96C4",
       "left-panel-bg-color": "white",
+      "theme-layout-text-color": "#6A737C",
       "header-background-color": "white",
       "header-border-bottom": "none",
       "header-font-color": "#f2f2f2",
@@ -43,8 +43,8 @@
       "custom_button_image_4": "download_pdf.svg"
     },
     "html": {
-      "search_highlight_bg_color" :"#ffff00",
-      "search_highlight_text_color" :"#000000",
+      "search_highlight_bg_color": "#ffff00",
+      "search_highlight_text_color": "#000000",
       "tocImageDataSet": ["tocimg1.png", "tocimg2.png", "tocimg3.png", "tocimg4.png", "tocimg5.png", "tocimg6.png", "tocimg7.png", "tocimg8.png"],
       "showBreadcrumbs": true,
       "minitoc_levelFrom": "1",

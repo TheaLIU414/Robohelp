@@ -401,10 +401,9 @@ ol.RoundSquare>li>ol>li>ol>li>ol>li>ol {
 }
 ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol {
   list-style: circle;
-<<<<<<< HEAD
-=======
+
 }
 ul.Disc {
   list-style-type: disc;
->>>>>>> bb6a7cc3f4498ea908443274c3f5921f675eb96b
+
 }

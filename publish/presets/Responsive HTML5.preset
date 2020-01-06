@@ -1,95 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <preset>
-  
-<content>
-    
-<index type="boolean">true</index>
-    
-<toc>
-      
-<path>../../toc/教程目录.toc</path>
-      
-<name>Default</name>
+  <title>Blank Project</title>
+  <content>
+    <toc>
+      <name>教程目录</name>
+      <path>../../toc/教程目录.toc</path>
     </toc>
-    
-<glossary>
-      
-<path>../../glossary/Default.glo</path>
-      
-<name>Default</name>
+    <index type="boolean">true</index>
+    <glossary>
+      <name>Default</name>
+      <path>../../glossary/Default.glo</path>
     </glossary>
-    
-<masterpage></masterpage>
-    
-<brs type="array"></brs>
-    
-<includeExpandingText type="boolean">true</includeExpandingText>
-    
-<includeDropdownText type="boolean">true</includeDropdownText>
+    <brs type="array"></brs>
+    <masterpage>
+      <path>../../contents/assets/masterpages/母版.htt</path>
+    </masterpage>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
   </content>
-  
-<starterPage>index.htm</starterPage>
-  
-<search>
-    
-<context type="boolean">true</context>
-    
-<contextLimit type="number">100</contextLimit>
-    
-<suggestion type="boolean">true</suggestion>
-    
-<fuzzy type="boolean">true</fuzzy>
-    
-<glossary type="boolean">true</glossary>
-    
-<showSpeclChars type="boolean">false</showSpeclChars>
-    
-<speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
-    
-<maxSearchresults type="number">20</maxSearchresults>
-  </search>
-  
-<sitemap>
-    
-<use type="boolean">true</use>
-    
-<changeFrequency></changeFrequency>
-    
-<helpBaseURL></helpBaseURL>
-  </sitemap>
-  
-<skin></skin>
-  
-<name>Responsive HTML5</name>
-  
-<type>html5</type>
-  
-<title>Blank Project</title>
-  
-<defaultTopic>
-    
-<name>First_Topic.htm</name>
-    
-<path>../../contents/First_Topic.htm</path>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/asus/Desktop/output/output2/</outputPath>
+  <name>Responsive HTML5</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>First_Topic</name>
+    <path>../../contents/First_Topic.htm</path>
   </defaultTopic>
-  
-<glosstermEffect type="number">0</glosstermEffect>
-  
-<createThumbNails type="boolean">true</createThumbNails>
-  
-<use_thumbnails type="boolean">true</use_thumbnails>
-  
-<outputPath>C:/Users/asushj/Documents/My RoboHelp Projects/outputs/Robohelp/Responsive HTML5</outputPath>
-  
-<patchHomepage type="boolean">true</patchHomepage>
-  
-<gdprCompliance type="boolean">true</gdprCompliance>
-  
-<mobileapp>
-    
-<android type="boolean">true</android>
-    
-<iOS type="boolean">false</iOS>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
   </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">true</context>
+    <contextLimit type="number">100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">true</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <skin></skin>
+  <createThumbNails type="boolean">true</createThumbNails>
+  <use_thumbnails type="boolean">true</use_thumbnails>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
 </preset>

@@ -23,6 +23,7 @@
     
 <page href="../contents/快速入门/输出文件.htm" format="html" processing-role="normal"></page>
   </book>
+<<<<<<< HEAD
   
 <book navtitle="进阶功能" format="html" processing-role="normal">
     
@@ -41,5 +42,16 @@
 <page href="../contents/进阶功能/发布.htm" format="html" processing-role="normal"></page>
     
 <page href="../contents/进阶功能/合作.htm" format="html" processing-role="normal"></page>
+=======
+  <book navtitle="进阶功能" format="html" processing-role="normal">
+    <page href="../contents/进阶功能/项目.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/编辑和格式.htm" format="html" processing-role="normal"></page>
+    <page navtitle="TOC、索引和词汇表" href="../contents/进阶功能/TOC、Index和G.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/条件性内容.htm" format="html" processing-role="normal"></page>
+    <page navtitle="皮肤和母版页" href="../contents/进阶功能/Skins和Master_Pages.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/输出.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/发布.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/合作.htm" format="html" processing-role="normal"></page>
+>>>>>>> bb6a7cc3f4498ea908443274c3f5921f675eb96b
   </book>
 </map>

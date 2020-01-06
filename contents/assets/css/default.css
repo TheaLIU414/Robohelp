@@ -161,8 +161,9 @@ p.AuthorNotes {
   margin-top: 0pt;
   margin-bottom: 6pt;
   font-family: Verdana, sans-serif;
-  color: #ff00ff;
+  color: #808080;
   font-style: italic;
+  line-height: 1.5;
 }
 p.Spacer {
   font-family: Verdana, sans-serif;
@@ -308,6 +309,7 @@ h2 {
   -webkit-border-radius: 6px;
   border-radius: 6px;
 }
+<<<<<<< HEAD
 td {
   vertical-align: top;
   padding: 3pt;
@@ -340,6 +342,11 @@ ol.Decimal {
 ul.Disc {
   list-style-type: disc;
 }
+=======
+ol.Decimal {
+  list-style-type: decimal;
+}
+>>>>>>> bb6a7cc3f4498ea908443274c3f5921f675eb96b
 ol.RoundNumbers {
   --prefix-size: 25px;
   --prefix-fixed-size: true;
@@ -394,4 +401,10 @@ ol.RoundSquare>li>ol>li>ol>li>ol>li>ol {
 }
 ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol {
   list-style: circle;
+<<<<<<< HEAD
+=======
+}
+ul.Disc {
+  list-style-type: disc;
+>>>>>>> bb6a7cc3f4498ea908443274c3f5921f675eb96b
 }

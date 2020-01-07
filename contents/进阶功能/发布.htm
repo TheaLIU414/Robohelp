@@ -1,14 +1,159 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta name="generator" content="Adobe RoboHelp 2019"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
   <title>发布</title>
-  <meta name="topic-status" content="Draft"/>
-<link rel="stylesheet" type="text/css" href="../assets/css/default.css"/></head>
+  <meta name="topic-status" content="Draft" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/default.css" />
+</head>
 <body>
   <h1>发布</h1>
-  <p></p>
-
-</body></html>
+  <p class="Normal-Indent"> </p>
+  <p class="Normal-Indent"><span lang="zh-CN">本章节介绍如何使用 Adobe RoboHelp 的发布进阶功能。</span></p>
+  <h2>导入 FrameMaker 文件至项目</h2>
+  <h3>导入 FrameMaker 文件</h3>
+  <p>你可以将 <span>FrameMaker books （</span><span>.book</span><span>）和 documents （</span><span>.fm</span><span>,<span> </span></span><span>.mif）导入至 Robohelp 项目中。<span>导入文档中引用的所有资产都放置在资产文件夹的相应子文件夹中。例如，样式表放置在 css 子文件夹中，图像放置在 images 子文件夹中。</span></span></p>
+  <ol class="Decimal">
+    <li>
+      <p>目录面板中选择 <span>File &gt; Import &gt; FrameMaker Document；</span></p>
+    </li>
+    <li>
+      <p>在弹出的选择框中输入 FrameMaker 文件地址并进行设置；</p>
+    </li>
+    <li>
+      <p>点击 Import 即可导入 FrameMaker 文件。</p>
+    </li>
+  </ol>
+  <p><img height="119" src="../assets/images/image3.png" width="550" /></p>
+  <h3>FrameMaker 导入设置</h3>
+  <p>导入 FrameMaker 文件时可以进行相关设置。</p>
+  <h4>General </h4>
+  <p><span>选择 general 选项卡为导入的内容进行基本设置。</span></p>
+  <ul class="Disc">
+    <li>
+      <p><span style="font-weight:bold;">FrameMaker Document</span><span> 点击</span><img src="https://helpx.adobe.com/content/dam/help/en/robohelp/using/format-content/jcr_content/main-pars/image/browse_icon.png" /><span> 选择需要导入的文件；</span></p>
+    </li>
+    <li>
+      <p><span style="font-weight:bold;">CSS file for style mapping </span><span>点击 </span><img src="https://helpx.adobe.com/content/dam/help/en/robohelp/using/format-content/jcr_content/main-pars/image/browse_icon.png" /><span> 选择外部样式表，<span>使 RoboHelp 样式映射 FrameMaker 样式；</span></span></p>
+    </li>
+    <li>
+      <p><span><span style="font-weight:bold;">Start new topic from style</span> <span>根据所选 FrameMaker 文档中的内容创建 topic；</span></span></p>
+      <ul>
+        <li>
+          <p><span><span style="font-weight:bold;">FrameMaker Style</span> <span>从FrameMaker文档中选择RoboHelp可用于创建 topic 的段落样式。例如，要为每个一级标题创建一个<span><span> topic </span></span>，可选择一级标题；</span></span></p>
+        </li>
+        <li>
+          <p><span><span style="font-weight:bold;">Topic Name Pattern </span><span>指定新主题的命名模式；</span></span></p>
+          <ul>
+            <li>
+              <p><span><span style="font-weight:bold;">&lt;</span><span style="font-weight:bold;">$ filename_no_ext&gt;-&lt;n&gt; </span>创建不带扩展名的文件名并按顺序包含数字。例如，如果ABC.fm是导入的FrameMaker文档，则新主题的文件名将变为ABC1，ABC；</span></p>
+            </li>
+            <li>
+              <p><span><span style="font-weight:bold;">&lt;$ filename_no_ext&gt;-&lt;$ paratext&gt; </span>创建不带扩展名的文件名，并包含第一段的初始文本；</span></p>
+            </li>
+            <li>
+              <p><span><span style="font-weight:bold;">&lt;$ paratext&gt; </span>将应用所选样式元素的初始文本用于创建文件名。默认情况下设置此选项。</span></p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><span style="font-weight:"><span style="font-weight:bold;">Use only ASCII characters in the generated file names</span> 选择此字段可将新主题文件名中的非ASCII字符转换为ASCII字符。</span></p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p><span style="font-weight:bold;">Save Settings</span><span> 保存 <span>FrameMaker Import Settings 为设置文件（.fsf）；</span></span></p>
+    </li>
+    <li>
+      <p><span style="font-weight:bold;">Load </span><span><span style="font-weight:bold;">Settings </span><span>点击</span><img src="https://helpx.adobe.com/content/dam/help/en/robohelp/using/format-content/jcr_content/main-pars/image/browse_icon.png" /><span> 选择需要导入的设置文件<span><span>（.fsf）</span></span>。</span></span></p>
+    </li>
+  </ul>
+  <h4>Character</h4>
+  <p><span>选择 character 选项卡为导入的内容指定字符样式。</span></p>
+  <h4>Paragraph</h4>
+  <p><span>选择 paragraph 选项卡为导入的内容指定段落样式。</span></p>
+  <h4>Table</h4>
+  <p><span>选择 table 选项卡为导入的内容指定表样式。</span></p>
+  <h4>Cross Reference</h4>
+  <p><span>选择 cross reference 选项卡为导入的内容指定交叉引用样式。</span></p>
+  <h4>Images</h4>
+  <p><span>选择 images 选项卡为导入的内容指定图像样式。</span></p>
+  <h4>Advanced</h4>
+  <p><span>选择 advanced 选项卡为导入的内容指定高级设置。</span></p>
+  <h2>发布到 Robohelp Server</h2>
+  <h3>什么是 Robohelp Server</h3>
+  <p>Adobe RoboHelp Server 10 是基于服务器的帮助解决方案，可为你的帮助和知识库提供实时的用户反馈。 在 RoboHelp 中输出项目，然后将其发布到 RoboHelp Server。 RoboHelp Server 收集并记录有关用户在搜索内容时提出的问题以及用户浏览 topics 方式的数据。 结果以易于查看的图形格式显示，以便快速解释。</p>
+  <h3>如何发布到 Robohelp Server</h3>
+  <p>要发布到 RoboHelp Server，首先要设置发布的配置文件，提供有关 RoboHelp Server 实例的信息。 RoboHelp 支持响应式 HTML5 输出类型，你可以编辑 HTML5 输出预设，选择要使用的配置文件， 然后将内容发布到RoboHelp Server。</p>
+  <h3><span>设置RoboHelp Server的发布配置文件</span></h3>
+  <ol class="Decimal">
+    <li>
+      <p><span>目录面板中选择<span> </span></span><span>Edit &gt; Publish Profiles</span><span>；</span></p>
+    </li>
+    <li>
+      <p>点击<img src="https://helpx.adobe.com/content/dam/help/en/robohelp/using/robohelp-server/jcr_content/main-pars/procedure/proc_par/step_1/step_par/image/create_icon.png" />创建新的配置文件；</p>
+    </li>
+    <li>
+      <p><span>在服务器类型字段中，选择服务器的类型为 RoboHelp Server。其默认值为 SharePoint Online。<span> </span></span></p>
+    </li>
+    <li>
+      <p><span><span>对于 RoboHelp Server 服务器类型，请执行以下操作：</span></span></p>
+      <ul class="Disc">
+        <li>
+          <p><span><span style="font-weight:bold;">Name</span> 显示默认配置文件名称。如果需要，请修改名称；</span></p>
+        </li>
+        <li>
+          <p><span><span style="font-weight:bold;">Address </span><span>指定要将项目发布到的 Robohelp 服务器的地址；</span></span><br />
+                   <span><span>地址格式： http：// &lt;服务器名称&gt;：&lt;端口号&gt; / &lt;上下文名称&gt; /服务器</span></span></p>
+          <ul>
+            <li>
+              <p><span><span style="font-weight:bold;">server-name</span> 设置 RoboHelp Server 的计算机的主机名或 IP 地址。如果它在同一台计算机上，则可以将本地主机指定为服务器名称；</span></p>
+            </li>
+            <li>
+              <p><span><span style="font-weight:bold;">port-number（可选） </span>运行 RoboHelp Server 的端口。默认值为8080，如果你将默认端口用于HTTP或HTTPS协议，则无需提供端口号；</span></p>
+            </li>
+            <li>
+              <p><span><span style="font-weight:bold;">context-name </span>要发布去的环境。默认值为robohelp。</span></p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><span style="font-weight:bold;">User ID</span><span><span> 和 </span></span><span><span style="font-weight:bold;">Password</span> 验证身份；</span></p>
+        </li>
+        <li>
+          <p><span style="font-weight:bold;">Areas </span>在服务器上选择要发布内容的区域。要刷新区域，请单击 <img src="https://helpx.adobe.com/content/dam/help/en/robohelp/using/robohelp-server/jcr_content/main-pars/procedure/proc_par/step/step_par/image/refresh_icon.png" />；</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>点击 save 保存配置文件。</p>
+    </li>
+  </ol>
+  <h3>发布到 Robohelp Server</h3>
+  <ol class="Decimal">
+    <li>
+      <p><span>点击标准工具栏中的 <span>Output </span>选项卡。 <span>Output Presets </span>是 Output 工具栏中的默认选择。</span></p>
+    </li>
+    <li>
+      <p><span>在 <span><span>Output Presets </span></span>面板中，双击一个 o<span><span>utput preset </span></span>以对其进行编辑。</span></p>
+    </li>
+    <li>
+      <p><span>在<span> o<span><span>utput preset </span></span></span>编辑器中，选择 Publish 选项卡以查看跨项目创建的服务器。</span></p>
+    </li>
+    <li>
+      <p><span>选择要向其发布内容的配置文件（服务器）。</span></p>
+    </li>
+    <li>
+      <p><span>选择 Republish ALL 以重新发布整个内容。如果未选择此字段，则 RoboHelp 仅发布自上次发布以来的更新内容，而不发布整个内容。</span></p>
+    </li>
+    <li>
+      <p><span>要发布到选定的配置文件（服务器），单击<span><span>o<span><span>utput preset </span></span></span></span>，然后在标准工具栏中单击<span> </span><img src="https://helpx.adobe.com/content/dam/help/en/robohelp/using/robohelp-server/jcr_content/main-pars/procedure_1457664588/proc_par/step_2082899373/step_par/image/publish_icon.png" /><span> </span>。</span></p>
+    </li>
+    <li>
+      <p><span>要查看已发布的内容，在已发布配置文件的结果列中单击 <img src="https://helpx.adobe.com/content/dam/help/en/robohelp/using/robohelp-server/jcr_content/main-pars/image/view_icon.png" />。</span></p>
+    </li>
+  </ol>
+</body>
+</html>

@@ -17,7 +17,7 @@
     <page href="../contents/进阶功能/编辑和格式.htm" format="html" processing-role="normal"></page>
     <page navtitle="TOC、索引和词汇表" href="../contents/进阶功能/TOC、Index和G.htm" format="html" processing-role="normal"></page>
     <page href="../contents/进阶功能/条件性内容.htm" format="html" processing-role="normal"></page>
-    <page navtitle="皮肤和母版页" href="../contents/进阶功能/Skins和Master_Pages.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/进阶功能/skins.htm" format="html" processing-role="normal"></page>
     <page href="../contents/进阶功能/输出.htm" format="html" processing-role="normal"></page>
     <page href="../contents/进阶功能/发布.htm" format="html" processing-role="normal"></page>
     <page href="../contents/进阶功能/合作.htm" format="html" processing-role="normal"></page>

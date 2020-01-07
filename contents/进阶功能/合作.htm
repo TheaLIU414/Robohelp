@@ -12,7 +12,71 @@
   <h1>合作</h1>
   <p class="Normal-Indent"> </p>
   <p class="Normal-Indent"><span lang="zh-CN">本章节介绍如何使用 Adobe RoboHelp 的合作进阶功能。</span></p>
-  <h2>使用Git进行合作</h2>
-  <p class="Normal-Indent"> </p>
+  <h2>使用 Git 进行合作</h2>
+  <h3>连接到 Git 的前提</h3>
+  <ol class="Decimal">
+    <li>
+      <p><span>下载并安装 Git。<a href="https://git-scm.com/download/win">单击此处</a>下载 Windows 版 Git。有关更多信息，请参见 <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git 帮助</a>；</span></p>
+    </li>
+    <li>
+      <p><span>调整 PATH 环境变量，以便可以从 Windows 命令提示符下使用 Git 和可选的 UNIX 工具。为此，请在 Git 安装程序中选择以下选项：<br />
+          <img height="189" src="../assets/images/合作/git_install.png" width="250" /></span><br />
+        <span>PATH环境变量必须包含以下值：</span><br />
+        <span>C:\Program Files\Git\usr\bin</span><br />
+        <img height="275" src="../assets/images/合作/git_path_var.png" width="250" /></p>
+    </li>
+    <li>
+      <p><span>在 RoboHelp 中注册外部 diff/merge 应用程序：</span></p>
+      <ul class="Disc">
+        <li>
+          <p>选择<span><span> </span></span>Edit &gt; Preferences<span>；</span></p>
+        </li>
+        <li>
+          <p>打开 Version Control 选项卡；</p>
+        </li>
+        <li>
+          <p><strong>在 </strong>External Diff/Merge Application 字段中，点击<span> </span><img alt="" src="https://helpx.adobe.com/content/dam/help/en/robohelp/using/git/jcr_content/main-pars/procedure_1608468501/proc_par/step_2/step_par/procedure/proc_par/step_2/step_par/image/select_files_icon.png" />选择<span>外部 diff/merge 应用程序；</span><br />
+            <span>通过在命令提示符下运行以下命令，验证Git支持您的应用程序：<br />
+              <span>git mergetool --tool-help</span></span></p>
+        </li>
+        <li>
+          <p>点击 Done 完成注册。</p>
+        </li>
+      </ul>
+    </li>
+  </ol>
+  <h3>创建 Git 连接配置文件</h3>
+  <p><span>要将 RoboHelp 与 Git 连接，需要创建 Git 连接配置文件。</span></p>
+  <ol class="Decimal">
+    <li>
+      <p><span>Git 服务器上必须存在一个存储库，你可以从 RoboHelp 连接到该存储库。要创建存储库，请遵循GitHub的说明；</span></p>
+    </li>
+    <li>
+      <p><span>在 Robohelp 中选择 Collaborate &gt; New Connection</span><span>；</span></p>
+    </li>
+    <li>
+      <p><span>在 <span>Connection Profiles </span>对话框中，为连接配置文件指定名称；</span></p>
+    </li>
+    <li>
+      <p><span>从 <span>Version Control </span>下拉列表中，选择Git；</span></p>
+    </li>
+    <li>
+      <p><span>在 <span>Repository URL</span><span> </span>字段中，指定远程存储库的 SSH 或 HTTPS URL；</span></p>
+    </li>
+    <li>
+      <p>在<b></b> User ID<b> </b>字段中，明确对指定 Git 存储库具有读/写访问权限的用户帐户的名称；</p>
+    </li>
+    <li>
+      <p><span>在 Branch 字段中，明确服务器上的分支名称。默认分支名称为master；</span></p>
+    </li>
+    <li>
+      <p><span>在 Local Path 字段中，明确计算机上映射到服务器上存储库的路径。</span></p>
+    </li>
+  </ol>
+  <h3><span>从Git服务器克隆项目</span></h3>
+  <ol class="Decimal">
+    <li><span>在RoboHelp中，点击 <span>Collaborate &gt; Open Connection</span><span> </span>并选择Git连接配置文件。该存储库将被克隆到连接配置文件中指定的本地路径。</span></li>
+    <li><span>在 <span>Open</span><span><span> </span></span>对话框中，选择一个 RoboHelp 项目文件（.rhpj），确认打开后RoboHelp将打开项目文件。</span></li>
+  </ol>
 </body>
 </html>

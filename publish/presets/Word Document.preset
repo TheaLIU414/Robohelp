@@ -1,54 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <preset>
-  
-<name>Word Document</name>
-  
-<type>word</type>
-  
-<title>Blank Project</title>
-  
-<content>
-    
-<index type="boolean">false</index>
-    
-<toc>
-      
-<path>../../toc/教程目录.toc</path>
-      
-<name>Default</name>
+  <title>Blank Project</title>
+  <content>
+    <toc>
+      <name>教程目录</name>
+      <path>../../toc/教程目录.toc</path>
     </toc>
-    
-<masterpage></masterpage>
-    
-<brs type="array"></brs>
-    
-<includereftopics type="boolean">true</includereftopics>
-    
-<includeExpandingText type="boolean">false</includeExpandingText>
-    
-<includeDropdownText type="boolean">false</includeDropdownText>
+    <index type="boolean">false</index>
+    <brs type="array"></brs>
+    <language>
+      <name>zh_CN</name>
+      <code type="number">2052</code>
+      <displayName>Simplified Chinese (China)</displayName>
+    </language>
+    <masterpage></masterpage>
+    <includereftopics type="boolean">true</includereftopics>
+    <postScript>
+      <name></name>
+      <displayName>None</displayName>
+    </postScript>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
   </content>
-  
-<word>
-    
-<stylemapping>{&quot;selectorMap&quot;:{},&quot;discardSelectors&quot;:[],&quot;identityMappedSelectors&quot;:[]}</stylemapping>
-    
-<insertTopicBreak type="boolean">false</insertTopicBreak>
-  </word>
-  
-<gdprCompliance type="boolean">true</gdprCompliance>
-  
-<starterPage>Default.docx</starterPage>
-  
-<patchHomepage type="boolean">true</patchHomepage>
-  
-<outputPath>C:/Users/asushj/Documents/My RoboHelp Projects/outputs/Robohelp/Word Document</outputPath>
-  
-<search>
-    
-<showSpeclChars type="boolean">false</showSpeclChars>
-    
-<speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  <type>word</type>
+  <outputPath>F:/北大研究生/技术写作/output/</outputPath>
+  <name>Word Document</name>
+  <starterPage>gg.docx</starterPage>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
   </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <word>
+    <stylemapping>{&quot;selectorMap&quot;:{},&quot;discardSelectors&quot;:[],&quot;identityMappedSelectors&quot;:[]}</stylemapping>
+    <insertTopicBreak type="boolean">false</insertTopicBreak>
+  </word>
 </preset>

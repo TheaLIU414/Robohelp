@@ -1,0 +1,231 @@
+ul.List0 {
+counter-reset: section01;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ol.List1 {
+counter-reset: section11;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ol.List2 {
+counter-reset: section21;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ol.List3 {
+counter-reset: section31;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+p.a {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    text-align: left;
+    font-family: 宋体;
+    font-size: 24pt;
+    line-height: 108%;
+    margin-left: 0;
+    margin-right: 0;
+    font-style: normal;
+    font-weight: bold
+}
+body {}
+ol.List1>li {
+ position: relative
+}
+ol.List1>li::before {
+counter-increment: section11;
+content:counter(section11,decimal)".";
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ol.List2>li {
+ position: relative
+}
+ol.List2>li::before {
+counter-increment: section21;
+content:counter(section21,decimal)".";
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ol.List3>li {
+ position: relative
+}
+ol.List3>li::before {
+counter-increment: section31;
+content:counter(section31,decimal)".";
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ol.List3>li>ol {
+counter-reset: section32;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ol.List3>li>ol>li {
+ position: relative
+}
+ol.List3>li>ol>li::before {
+counter-increment: section32;
+content:"o";
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ol.List3>li>ol>li>ol {
+counter-reset: section33;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ol.List3>li>ol>li>ol>li {
+ position: relative
+}
+ol.List3>li>ol>li>ol>li::before {
+counter-increment: section33;
+content:"";
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+span { white-space: pre-wrap
+}
+ul.List0>li {
+ position: relative
+}
+ul.List0>li::before {
+counter-increment: section01;
+content:counter(bullet,disc);
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ul.List0>li>ul {
+counter-reset: section02;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ul.List0>li>ul>li {
+ position: relative
+}
+ul.List0>li>ul>li::before {
+counter-increment: section02;
+content:counter(bullet,circle);
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ul.List0>li>ul>li>ul {
+counter-reset: section03;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ul.List0>li>ul>li>ul>li {
+ position: relative
+}
+ul.List0>li>ul>li>ul>li::before {
+counter-increment: section03;
+content:counter(bullet,square);
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}

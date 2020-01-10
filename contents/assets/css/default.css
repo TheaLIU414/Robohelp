@@ -48,7 +48,7 @@ H3 {
 }
 H4 {
   color: rgb(0, 130, 235);
-  font-size: 10pt;
+  font-size: 11pt;
   font-weight: bold;
   margin-top: 0pt;
   margin-bottom: 5pt;
@@ -541,4 +541,12 @@ span {
 }
 ol.UpperAlpha {
   list-style-type: upper-alpha;
+}
+h4 {
+  color: rgb(0, 130, 235);
+  font-size: 11pt;
+  font-weight: bold;
+  margin-top: 0pt;
+  margin-bottom: 5pt;
+  font-family: "Arial Black", serif;
 }

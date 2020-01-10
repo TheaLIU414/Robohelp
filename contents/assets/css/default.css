@@ -539,3 +539,6 @@ p.Emphasis2 {
 span {
   font-weight: bold;
 }
+ol.UpperAlpha {
+  list-style-type: upper-alpha;
+}

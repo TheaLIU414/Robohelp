@@ -21,4 +21,7 @@
     <page href="../contents/进阶功能/发布.htm" format="html" processing-role="normal"></page>
     <page href="../contents/进阶功能/合作.htm" format="html" processing-role="normal"></page>
   </book>
+  <book navtitle="更多帮助" href="../contents/更多帮助/更多帮助.htm" format="html" processing-role="normal">
+    <page href="../contents/更多帮助/更多帮助.htm" format="html" processing-role="normal"></page>
+  </book>
 </map>

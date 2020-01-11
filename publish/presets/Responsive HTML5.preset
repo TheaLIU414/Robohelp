@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preset>
-  <title>Blank Project</title>
+  <title>RoboHelp 教程</title>
   <content>
     <toc>
       <name>教程目录</name>
       <path>../../toc/教程目录.toc</path>
     </toc>
-    <index type="boolean">true</index>
-    <glossary>
-      <name>Default</name>
-      <path>../../glossary/Default.glo</path>
-    </glossary>
+    <index type="boolean">false</index>
     <brs type="array"></brs>
-    <masterpage>
-      <path>../../contents/assets/masterpages/母版.htt</path>
-    </masterpage>
     <includeExpandingText type="boolean">true</includeExpandingText>
     <includeDropdownText type="boolean">true</includeDropdownText>
   </content>
   <type>html5</type>
   <glosstermEffect type="number">0</glosstermEffect>
-  <outputPath>C:/Users/asus/Desktop/output/output2/</outputPath>
+  <outputPath>C:/Users/asus/Desktop/output/Responsive HTML5/</outputPath>
   <name>Responsive HTML5</name>
   <starterPage>index.htm</starterPage>
   <defaultTopic>
-    <name>First_Topic</name>
-    <path>../../contents/First_Topic.htm</path>
+    <name>软件介绍/1_1.htm</name>
+    <path>../../contents/软件介绍/1_1.htm</path>
   </defaultTopic>
   <mobileapp>
     <android type="boolean">true</android>
@@ -46,9 +39,15 @@
     <helpBaseURL></helpBaseURL>
     <changeFrequency></changeFrequency>
   </sitemap>
-  <skin></skin>
+  <skin>
+    <path>../skins/Charcoal_Grey/html5.skn</path>
+  </skin>
   <createThumbNails type="boolean">true</createThumbNails>
   <use_thumbnails type="boolean">true</use_thumbnails>
+  <favicon>
+    <name>LOGO</name>
+    <path>../../contents/assets/images/LOGO.svg</path>
+  </favicon>
   <patchHomepage type="boolean">true</patchHomepage>
   <gdprCompliance type="boolean">true</gdprCompliance>
 </preset>

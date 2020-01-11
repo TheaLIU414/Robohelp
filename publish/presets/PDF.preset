@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preset>
-  <title>Blank Project</title>
+  <title>RoboHelp 教程</title>
   <content>
     <toc>
       <name>教程目录</name>
@@ -9,7 +9,7 @@
     <index type="boolean">false</index>
     <brs type="array"></brs>
     <masterpage>
-      <path>../../contents/assets/masterpages/母版.htt</path>
+      <path>../../contents/assets/masterpages/pdf2.htt</path>
     </masterpage>
     <mapFiles type="array"></mapFiles>
     <generatetoc type="boolean">true</generatetoc>
@@ -18,9 +18,9 @@
     <includeDropdownText type="boolean">false</includeDropdownText>
   </content>
   <type>pdf</type>
-  <outputPath>C:/Users/asus/Desktop/output/output3/</outputPath>
+  <outputPath>C:/Users/asus/Desktop/output/PDF/</outputPath>
   <name>PDF</name>
-  <starterPage>Default.pdf</starterPage>
+  <starterPage>RoboHelp教程.pdf</starterPage>
   <defaultTopic></defaultTopic>
   <search>
     <context type="boolean">false</context>

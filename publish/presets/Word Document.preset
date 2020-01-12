@@ -6,24 +6,25 @@
       <name>教程目录</name>
       <path>../../toc/教程目录.toc</path>
     </toc>
-    <index type="boolean">false</index>
+    <index type="boolean">true</index>
     <brs type="array"></brs>
     <language>
-      <name>zh_CN</name>
       <code type="number">2052</code>
       <displayName>Simplified Chinese (China)</displayName>
+      <name>zh_CN</name>
     </language>
     <masterpage></masterpage>
+    <generatetoc type="boolean">true</generatetoc>
     <includereftopics type="boolean">true</includereftopics>
     <postScript>
-      <name></name>
-      <displayName>None</displayName>
+      <name>C:/Users/王可欣/AppData/Roaming/Adobe/RoboHelp/2019/scripting/WordCount.js</name>
+      <displayName>WordCount.js</displayName>
     </postScript>
-    <includeExpandingText type="boolean">false</includeExpandingText>
-    <includeDropdownText type="boolean">false</includeDropdownText>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
   </content>
   <type>word</type>
-  <outputPath>F:/北大研究生/技术写作/output/</outputPath>
+  <outputPath>D:/Personal/学习那些事/研一/学习日常/高老师/期末项目备份/Word/</outputPath>
   <name>Word Document</name>
   <starterPage>gg.docx</starterPage>
   <search>
@@ -34,6 +35,7 @@
   <gdprCompliance type="boolean">true</gdprCompliance>
   <word>
     <stylemapping>{&quot;selectorMap&quot;:{},&quot;discardSelectors&quot;:[],&quot;identityMappedSelectors&quot;:[]}</stylemapping>
-    <insertTopicBreak type="boolean">false</insertTopicBreak>
+    <insertTopicBreak type="boolean">true</insertTopicBreak>
   </word>
+  <republish type="boolean">true</republish>
 </preset>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>Robohelp</title>
+  <content>
+    <toc>
+      <path>../../toc/教程目录.toc</path>
+      <name>教程目录</name>
+    </toc>
+    <index type="boolean">true</index>
+    <language>
+      <name>zh_CN</name>
+      <code type="number">2052</code>
+      <displayName>Simplified Chinese (China)</displayName>
+    </language>
+    <postScript>
+      <name></name>
+      <displayName>None</displayName>
+    </postScript>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <type>chm</type>
+  <outputPath>C:/Users/王可欣/Documents/My RoboHelp Projects/outputs/Robohelp/教程-HELP</outputPath>
+  <name>教程-HELP</name>
+  <starterPage>Robohelp.chm</starterPage>
+  <defaultTopic>
+    <name>快速入门/管理内容.htm</name>
+    <path>../../contents/快速入门/管理内容.htm</path>
+  </defaultTopic>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <republish type="boolean">true</republish>
+</preset>
